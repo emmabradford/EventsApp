@@ -27,6 +27,7 @@
 		3F2D19ED1AD41E8F007BEFB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D19EC1AD41E8F007BEFB4 /* LoginViewController.swift */; };
 		3F2D19EF1AD4219D007BEFB4 /* RegesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D19EE1AD4219D007BEFB4 /* RegesterViewController.swift */; };
 		3F85CFD41AD56DB100746D5C /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85CFD31AD56DB100746D5C /* EventsViewController.swift */; };
+		3F9DC13B1ADFFD3000DABE77 /* CreateeventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9DC13A1ADFFD3000DABE77 /* CreateeventViewController.swift */; };
 		3FA68DCC1AD6C78700C90FF6 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA68DCB1AD6C78700C90FF6 /* EventTableViewCell.swift */; };
 		B19268D21A4072D80030A1E6 /* MMAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19268D11A4072D80030A1E6 /* MMAlertManager.swift */; };
 		B19268D41A40734B0030A1E6 /* MMExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19268D31A40734B0030A1E6 /* MMExtensions.swift */; };
@@ -77,6 +78,7 @@
 		3F2D19EC1AD41E8F007BEFB4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F2D19EE1AD4219D007BEFB4 /* RegesterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegesterViewController.swift; sourceTree = "<group>"; };
 		3F85CFD31AD56DB100746D5C /* EventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		3F9DC13A1ADFFD3000DABE77 /* CreateeventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateeventViewController.swift; sourceTree = SOURCE_ROOT; };
 		3FA68DCB1AD6C78700C90FF6 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		B19268D11A4072D80030A1E6 /* MMAlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMAlertManager.swift; sourceTree = "<group>"; };
 		B19268D31A40734B0030A1E6 /* MMExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMExtensions.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				B19268D81A4073B50030A1E6 /* User.swift */,
 				B19268DA1A4073D10030A1E6 /* Profile.swift */,
 				B19268DC1A4073F20030A1E6 /* Event.swift */,
+				3F9DC13A1ADFFD3000DABE77 /* CreateeventViewController.swift */,
 				B19268DE1A4074250030A1E6 /* Photo.swift */,
 				B19268E01A4074440030A1E6 /* UniversalProfile.swift */,
 			);
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19268DF1A4074250030A1E6 /* Photo.swift in Sources */,
+				3F9DC13B1ADFFD3000DABE77 /* CreateeventViewController.swift in Sources */,
 				B19268E11A4074440030A1E6 /* UniversalProfile.swift in Sources */,
 				B19268D21A4072D80030A1E6 /* MMAlertManager.swift in Sources */,
 				B19268DB1A4073D10030A1E6 /* Profile.swift in Sources */,

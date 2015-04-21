@@ -26,6 +26,8 @@ class Event: PFObject, PFSubclassing
     @NSManaged var details : String!
     ///The profile of the user who created the event
     @NSManaged var host : Profile!
+    //daten of the event
+    @NSManaged var date : NSDate
     ///The Parse location object of where the event is taking place (must be converted to a CLLocation for further functionality)
     @NSManaged var location : PFGeoPoint!
     ///The file of the photo representing the event (must be converted to UIImage for displaying)
