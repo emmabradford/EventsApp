@@ -18,8 +18,10 @@ class EventsViewController: UIViewController, UITableViewDelegate, UITableViewDa
         if PFUser.currentUser() == nil {
             performSegueWithIdentifier("EventsToRegisterSegue", sender: nil)
         } else {
-            Profile.
-            setEventData()
+            Profile.queryForCurrentUsersProfile({ (profile, error) -> Void in
+                self.setEventData()
+            })
+            
         }
     }
     
